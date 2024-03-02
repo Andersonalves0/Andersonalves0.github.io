@@ -1,0 +1,22 @@
+body{
+    box-sizing: border-box;
+    background-color: black;
+}
+img{
+    height: 300px;
+    width: 700px;
+    position: relative;
+    left: 360px;
+}
+
+h1{
+    border-bottom-style: inset;
+    text-align: center;
+    color: white;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    color: white;
+}

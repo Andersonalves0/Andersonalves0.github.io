@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Inflação </title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" type="image/png" href="img/logo.png">
+</head>
+
+<body>
+    <h1> Comparação: Salario x Inflação entre 2010 e 2024 </h1>
+    <img src="img/inflacao.png" alt="inflção">
+    <p></p>
+    <p> Se a variação do seu salário, de um ano para o outro, for menor do que o IPCA, você perde seu poder de compra, pois os preços sobem mais do que a sua renda. 
+        Se a inflação e o seu salário têm a mesma variação, seu poder de compra se mantém. 
+        Se você, porém, receber um aumento acima do IPCA, seu poder de compra aumentará. </p>
+    <form>
+    <p> Escolha uma das opções: 
+        <input type="radio" name="escolha" id="inSalario" required> Listar os salarios minimos de 2010 a 2020
+        <input type="radio" name="escolha" id="inInflacao" required> listar o indice IPCA de 2010 a 2020
+        <input type="radio" name="escolha" id="inComparacao" required> Comparação entre o percentual de aumento salarial e o IPCA
+    </p>
+    <input type="submit" value="Exibir Resultado">
+    <input type="reset" value="Limpar Campos">
+    </form>
+    <p class="resposta"></p>
+
+    <script src="js/comparacao.js"></script>
+</body>
+</html>
